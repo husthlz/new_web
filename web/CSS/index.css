@@ -47,7 +47,7 @@ margin-top: 40px;
 
 /*--------------*/
 
-.playlist-card {
+.card {
   text-align: left;
   display: inline-block;
   background-color: #9ffcf8;
@@ -60,7 +60,7 @@ margin-top: 40px;
 }
 
 
-#featured-playlists {
+#list{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -68,26 +68,26 @@ margin-top: 40px;
   margin-bottom: 50px;
 }
 
-.playlist-card img {
+.card img {
   border-radius: 8px;
   width: 100%;
   height: auto;
   transition: transform 0.3s ease;
 }
 
-.playlist-card h3{
+.card h3{
   font-size: larger;
   text-align: center;
   color: #3e3939;
 }
 
-.playlist-card h4{
+.card h4{
   font-size: large;
   text-align: left;
   color: #3e3939;
 }
 
-.playlist-card div a {
+.card div a {
   font-weight: bolder;
   font-size: large;
   color: #00b3ff;
